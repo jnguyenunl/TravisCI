@@ -105,7 +105,7 @@ namespace TravisCILab
         [Test]
         public void Power_Valid_Nguyen()
         {
-            Assert.AreEqual(0, Program.Power("100", "0"));
+            Assert.AreEqual(1, Program.Power("100", "0"));
             Assert.AreEqual(8, Program.Power("2", "3"));
             Assert.AreEqual(1, Program.Power("1", "10"));
         }
